@@ -1,5 +1,7 @@
 # pi GPT with Taste
 
+> **No longer maintained**: GPT with Taste now includes a Pi adapter. Please use the [upstream repository](https://github.com/NB-Corp/gpt-with-taste) and follow its [Pi setup guide](https://github.com/NB-Corp/gpt-with-taste/blob/master/docs/harnesses/pi.md). The documentation below describes this legacy port.
+
 English · [简体中文](README.zh-CN.md)
 
 Bring [GPT with Taste](https://github.com/NB-Corp/gpt-with-taste)'s judgment, sustained execution, engineering and visual craft, and reader-first communication to pi.

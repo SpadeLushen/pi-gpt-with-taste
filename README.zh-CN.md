@@ -1,5 +1,7 @@
 # pi GPT with Taste
 
+> **本项目已停止维护**：GPT with Taste 上游现已提供 Pi 适配器。请前往[上游仓库](https://github.com/NB-Corp/gpt-with-taste)，按 [Pi 安装指南](https://github.com/NB-Corp/gpt-with-taste/blob/master/docs/harnesses/pi.md)使用。下方文档仅供旧版移植参考。
+
 [English](README.md) · 简体中文
 
 将 [GPT with Taste](https://github.com/NB-Corp/gpt-with-taste) 的判断力、持续执行、工程与视觉审美，以及面向读者的表达方式带入 pi。
