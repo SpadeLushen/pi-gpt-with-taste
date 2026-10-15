@@ -1,0 +1,49 @@
+{
+  "name": "pi-gpt-with-taste",
+  "version": "0.1.0",
+  "description": "Scoped GPT with Taste behavioral instructions and request-local steering for pi 1.2.0.",
+  "type": "module",
+  "license": "MIT",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "gpt",
+    "instructions"
+  ],
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "pi": {
+    "extensions": [
+      "./src/index.ts"
+    ],
+    "skills": [],
+    "prompts": [],
+    "themes": []
+  },
+  "exports": {
+    ".": "./src/index.ts",
+    "./integration": "./src/extension.ts"
+  },
+  "files": [
+    "src/",
+    "resources/",
+    "docs/",
+    "config.example.json",
+    "README.md",
+    "README.zh-CN.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-agent-core": "*"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "1.2.0",
+    "@types/node": "24.10.1",
+    "typescript": "5.9.3"
+  }
+}

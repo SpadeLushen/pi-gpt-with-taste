@@ -1,0 +1,9 @@
+{
+  "enabled": true,
+  "steering": true,
+  "providers": [
+    "openai",
+    "openai-codex"
+  ],
+  "modelIdPattern": "/^gpt-/"
+}
